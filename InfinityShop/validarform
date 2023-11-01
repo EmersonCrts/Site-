@@ -1,0 +1,91 @@
+let enviar = document.getElementById('env')
+
+env.addEventListener('click', (event) => {
+    event.preventDefault()
+
+    let nome = document.getElementById('nome')
+    let tel = document.getElementById('tel')
+    let end = document.getElementById('end')
+    let cep = document.getElementById('cep')
+    let cpf = document.getElementById('cpf')
+    let email = document.getElementById('email')
+    let senha = document.getElementById('senha')
+    let senhab = document.getElementById('senhab')
+
+
+    if (nome.value.length <= 8 || isNaN(nome.value) == false ) {
+        nome.classList.add('errorInput')
+        nome.classList.remove('okInput')
+    } else {
+        nome.classList.add('okInput')
+        nome.classList.remove('errorInput')
+    }
+
+    if (tel.value === '' || tel.value.length <= 10)  {            
+        tel.classList.add('errorInput')
+        tel.classList.remove('okInput')
+    }
+    else {
+        tel.classList.add('okInput')
+        tel.classList.remove('errorInput')
+    }
+
+    if (end.value === '' || end.value.length <= 10) {
+        end.classList.add('errorInput')
+        end.classList.remove('okInput')
+    } else { 
+        end.classList.add('okInput')
+        end.classList.remove('errorInput')
+    }
+
+    if (cep.value === '' || cep.value.length != 8) {
+        cep.classList.add('errorInput')
+        cep.classList.remove('okInput')
+    } else { 
+        cep.classList.add('okInput')
+        cep.classList.remove('errorInput')
+    }
+
+
+    if (cpf.value === '' || cpf.value.length != 11) {
+        cpf.classList.add('errorInput')
+        cpf.classList.remove('okInput')
+    } else {
+        cpf.classList.add('okInput')
+        cpf.classList.remove('errorInput')
+
+    }
+
+    if (email.value === '' || email.value.indexOf("@") == -1 || email.value.indexOf(".") == -1 || email.value.indexOf(".") - email.value.indexOf("@") == 1 || email.value.indexOf('@') - email.value.indexOf('.') == 1 )  {
+        email.classList.add('errorInput')
+        email.classList.remove('okInput')
+    } else {
+        email.classList.add('okInput')
+        email.classList.remove('errorInput')
+    }
+
+
+    if (senha.value === '' || senha.value.length <= 6) {
+        senha.classList.add('errorInput')
+        senha.classList.remove('okInput')
+    } else { 
+        senha.classList.add('okInput')
+        senha.classList.remove('errorInput')    
+    }
+
+    if (senhab.value != '' && senhab.value == senha.value) {
+        senhab.classList.add('okInput')
+        senhab.classList.remove('errorInput')
+
+
+        } else { 
+            senhab.classList.add('errorInput')
+            senhab.classList.remove('okInput')
+        }
+
+
+  
+
+
+
+})

@@ -1,0 +1,322 @@
+
+
+
+
+
+nav{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    color: #d61c25;
+    font-size: 45px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    height: 200px;
+} 
+
+.navbar{
+    width: 0px;
+    margin-right: 10px;
+}
+
+.menulat{
+    margin-top: 0px;
+    margin-left: 37px;
+    border-radius: 12px;
+    border-color:rgb(255, 255, 255);
+    width: 110px;
+    height: 82px;
+    background-color:#f16269;
+}
+
+
+
+.navbar-toggler-icon{
+    width: 20px;
+    height: 20px;
+    margin-top: 00px;
+   
+}
+
+.nav-item{
+    font-size: 24px;
+    margin-top: 50px;   
+}
+
+.offcanvas-body{
+    background-color: #ae3f45;
+
+}
+
+.nav-link{
+    color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dropdown-menu{
+    text-align: center;
+    background-color: rgb(241, 235, 235);
+}
+
+.dropdown-item{
+    margin-top: 15px;
+    color: #ae3f45;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menutopo{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: -45px;
+    margin-top: 20px;
+    color: #ae3f45;
+}
+
+.btn-close{
+    height: 08px;
+    width: 08px;
+}
+
+.cadast{
+
+    border-color: #ae3f45;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#d61c25;
+}
+
+.entra{
+    width: 80px;
+    height: 37px;
+    font-size: 20px;
+    background-color:white;
+    border-radius: 5px;
+    border-color: #c92830;
+}
+
+.cadast:hover{
+    color: rgb(249, 249, 249);
+    background-color:#c92830;
+}
+
+.entra:hover{
+    color: rgb(249, 249, 249);
+    background-color:#c92830;
+}
+
+.cadastr{
+    text-align: right;
+    margin-top: -130px;
+    margin-right: 21px;
+
+}
+
+
+main{
+    text-align: center;
+
+}
+
+body{
+    background:linear-gradient(#bd1921,rgb(156, 69, 69),rgb(173, 149, 149))
+}
+
+
+
+footer{
+    width: 100%;
+    min-height: 210px;
+    background-color: rgb(132, 31, 31);  
+    display: flex ;
+    margin-top: 50px;
+}
+
+footer .boxs{
+    width: 90%;
+    min-height: 150px;
+    padding: 40px;
+    margin-top: -10px;
+    list-style: none;
+}
+
+footer .boxs:nth-child(3){
+    width: 300px;
+}
+
+.ini{
+    color: aliceblue;
+    font-size: 24px;
+}
+
+.sup{
+    color: aliceblue;
+    font-size: 24px;
+}
+
+.lojs{
+    text-decoration: none;
+    color: #c92830;
+
+}
+.lojs:hover{
+    color: rgb(184, 31, 31);
+}
+.hom{
+    margin-left: 07px;
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(232, 127, 0);
+}
+.hom:hover{
+    color: aliceblue;
+}
+
+.cont{
+    margin-left: 08px;
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(232, 127, 0);
+}
+.cont:hover{
+    color: aliceblue;
+}
+
+.loj{
+    margin-left: 12px;
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(232, 127, 0);
+}
+.loj:hover{
+    color: aliceblue;
+}
+
+.emai{
+    margin-left: 27px;
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(232, 127, 0);
+}
+.emai:hover{
+    color: aliceblue;
+}
+
+.tel{
+    margin-left: 13px;
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(232, 127, 0);
+}
+.tel:hover{
+    color: rgb(232, 127, 0);
+}
+
+.num{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left:  -10px;
+}
+.num:hover{
+    color: rgb(232, 127, 0);
+}
+
+.inst{
+    margin-right: 10px;
+}
+
+.twit{
+    margin-right: 10px;
+}
+
+.fac{
+    margin-right: 5px;
+    margin-top: -5px;    
+}
+
+.redes{
+    padding: 10px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.red{
+    color: aliceblue;
+    font-size: 23px;
+}
+
+.rodap{
+    margin-left: 20px;
+ }
+
+
+.roda{
+    list-style: none;
+    transition: 0.3s;
+    display: flex ;  
+    margin-top: 10px;
+    padding: 30px;
+}
+
+.titul{
+    color: rgb(245, 160, 56) ;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#formulario {
+    text-align: center;
+    border: solid 6px;
+    margin-top: 80px;
+    width: 100%;
+    line-height: 32px;
+    color: aliceblue;
+    border-radius: 90px;
+    align-items: center;
+    padding: 12px;
+    font-size: 17px;
+   
+}
+
+.nom{
+    margin-top: 20px;
+}
+
+input {
+    background-color: aliceblue;
+    width: 380px;
+    height: 40px;
+    border-radius: 10px;
+    border-color:#000000 ;
+    padding: 4px;
+   
+
+}
+
+/* Validação Apartir daqui  */
+
+.errorInput {
+    border: 4px solid rgb(255, 0, 0) !important;
+}
+
+.okInput { 
+    border: 4px solid rgb(0, 253, 0) !important
+}
+
+.envi{
+   width: 200px;
+   height: 50px;
+}
+.limp{
+
+    width: 200px;
+    height: 50px;
+}
+
+.limp:hover{
+    background-color: rgb(223, 223, 118);
+}
+.envi:hover{
+    background-color: rgb(141, 215, 116);
+}

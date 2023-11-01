@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrar</title>
+  <link rel="shortcut icon" href="img/logo-removebg-preview.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/entra.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container-fluid">
+              <a class="navbar-brand" href="Menu.html">
+                <img src="img/Infinity Shop2.png" alt="logo" width="170" height="180">
+              </a>
+                <div class="cadastr">
+                  <button class="entra"><a class="cadast" href="entrar.html"> Entrar</a></button>
+                </div>
+            </div>
+            
+          <nav class="navbar bg-light fixed-top">
+            <a class="men">Menu</a>   
+                <button class="menulat" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <img src="img/Infinity Shop2.png" alt="logo" width="90" height="90">
+                        <h5 class="menutopo" id="offcanvasNavbarLabel">Menu</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="Menu.html">Início </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="Lojas.html" >Lojas</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conta</a>
+                            
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="entrar.html">Entrar</a></li>
+                                <li><a class="dropdown-item" href="cadastro.html">Cadastrar</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="alterar.html">Alterar usuário</a></li>
+                            </ul>
+                        </ul>
+                    </div>
+                  
+                </div>
+              </nav>
+         
+            
+          </nav>
+    </header>
+    
+    <main>
+
+        
+        <div id="formulario">
+            <h2 class="titul">ENTRAR</h2><br>
+
+            <form action="" id="form">
+
+                <label> E-mail:</label><br>
+                <input type="text" id="email" placeholder="Digite Seu E-mail"> <br><br>
+                <label> Senha:</label><br>
+                <input type="password" id="senha" placeholder="Digite sua senha"> <br><br>
+               
+                <input type="submit" id="env" class="envi" value="Entrar">
+                
+
+            </form><br>
+        </div>
+
+      <center><button class="bot"><a class="nov" href="cadastro.html"> Novo por aqui? cadastre-se.</a> </button></center>
+
+
+
+
+
+        
+    </main>
+   
+
+    <footer> 
+      <div class="boxs">
+        <h2 class="ini">Início</h2>
+          <li><a class="hom" href="Menu.html">Home</a></li>
+          <li><a class="cont" href="alterar.html">Conta</a></li>
+          <li><a class="loj" href="Lojas.html" target="blank" >Loja</a></li>
+        
+      </div>
+
+      <div class="boxs">
+        <h2 class="sup">Suporte</h2>
+          <li><a class="emai" href="https://mail.google.com" target="_blank">Email</a></li>
+          <li><a class="tel">Telefone:</a></li>
+          <li><a class="num">(55)) 3212-5557</a> </li>
+      </div>
+      
+      <div class="rodap">
+        <ul class="roda">
+          <li><a class="inst" href="https://www.instagram.com/" target="blank">  <img src="img/logoinsta.png" width="42" height="40"> </a></li>
+          <li><a class="twit" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D" target="blank"><img src="img/logotwit.png" width="43" height="39"> </a></li>
+          <li><a class="fac" href="https://pt-br.facebook.com/" target="blank"> <img src="img/fac.png" width="40" height="39"> </a></li>
+        </ul>
+      </div>
+    </footer>
+
+</body>
+</html>
+
